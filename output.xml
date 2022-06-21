@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220621 17:21:20.110" rpa="true" schemaversion="3">
+<suite id="s1" name="T9 Test library" source="D:\PyCharm_Projects\API_test1\TestCase\T9_Test_library.robot">
+<test id="s1-t1" name="Calculate Multiplication of given numbers" line="9">
+<kw name="Multiplication Of Two" library="MathOper">
+<var>${mult_result}</var>
+<arg>${x}</arg>
+<arg>${y}</arg>
+<msg timestamp="20220621 17:21:20.142" level="INFO">${mult_result} = 600.0</msg>
+<status status="PASS" starttime="20220621 17:21:20.141" endtime="20220621 17:21:20.142"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${mult_result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220621 17:21:20.143" endtime="20220621 17:21:20.143"/>
+</kw>
+<status status="PASS" starttime="20220621 17:21:20.140" endtime="20220621 17:21:20.143"/>
+</test>
+<doc>Do accounting operations.</doc>
+<status status="PASS" starttime="20220621 17:21:20.112" endtime="20220621 17:21:20.145"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="T9 Test library">T9 Test library</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

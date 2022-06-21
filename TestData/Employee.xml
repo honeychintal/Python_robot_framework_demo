@@ -1,0 +1,38 @@
+<employees>
+    <employee id="ep01">
+        <firstname>John</firstname>
+        <lastname>Doe</lastname>
+        <title>Engineer</title>
+        <division>Materials</division>
+        <room>19</room>
+        <building>327</building>
+        <supervisor>ep04</supervisor>
+    </employee>
+    <employee id="ep02">
+        <firstname>William</firstname>
+        <lastname>Defoe</lastname>
+        <title>Manager</title>
+        <division>Accounts</division>
+        <room>45</room>
+        <building>327</building>
+        <supervisor>ep04</supervisor>
+    </employee>
+    <employee id="ep03">
+        <firstname>Adam</firstname>
+        <lastname>Fincher</lastname>
+        <title>Director</title>
+        <division>Sales</division>
+        <room>15</room>
+        <building>327</building>
+        <supervisor>ep04</supervisor>
+    </employee>
+    <employee id="ep04">
+        <firstname>Shuri</firstname>
+        <lastname>Thurman</lastname>
+        <title>Dept head</title>
+        <division>Marketing</division>
+        <room>16</room>
+        <building>329</building>
+        <supervisor>ep00</supervisor>
+    </employee>
+</employees>
