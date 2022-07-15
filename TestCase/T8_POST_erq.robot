@@ -2,13 +2,14 @@
 Library             RequestsLibrary
 Library             Collections
 Library             JSONLibrary
+Resource
 
 *** Variables ***
 ${API_BASE}=        https://petstore.swagger.io/v2/pet
 
 
 *** Keywords ***
-A POST request to ${endpoint} with ${payload} should respond with ${status}
+    A POST request to ${endpoint} with ${payload} should respond with ${status}
     [Documentation]     Takes submitted endpoint and response variables and plugs them into a requests call and returns the response object.
     ${api_response}=    POST  url=${endpoint}   json=${payload}  expected_status=${status}
     [Return]    ${api_response}
